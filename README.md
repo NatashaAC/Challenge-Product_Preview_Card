@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Frontend Mentor Solution -> 
-- Live Site ->
+- Frontend Mentor Solution -> https://www.frontendmentor.io/solutions/product-preview-card-WdY8UYaKsI
+- Live Site -> https://natashaac.github.io/Challenge-Product_Preview_Card/
 
 ## My process
 
