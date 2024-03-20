@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+main {
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-header, .card-text, .price {
+    color: hsl(228, 12%, 48%);
+}
+
+.card-title, .salePrice {
+    padding-bottom: 15px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+
+.card-header {
+    border: none;
+    font-size: small;
+    letter-spacing: 5px;
+    padding: 0 0 15px 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    line-height: 35px;
+}
+
+.salePrice {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+}
+
+.price {
+    text-decoration: line-through;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    font-weight: 500;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+
+.btnIcon {
+    margin: 10px;
+}
+
+.credits {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    color: hsl(212, 21%, 14%);
+    font-size: 12px;
+}
+
+.credits p a {
+    color: hsl(228, 12%, 48%);
+    text-decoration: none;
+    font-style: italic;
+}
